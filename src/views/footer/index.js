@@ -1,6 +1,6 @@
 import Planet from '../../assets/images/elements/planet.png';
 
-let footer = `
+let Footer = `
 <div class="container footer-container">
     <p>
         Star wars  -  este é um exemplo criado para os Alunos Gama Academy</br>
@@ -12,4 +12,4 @@ let footer = `
 </div>
 `;
 
-export default footer;
+export default Footer;
