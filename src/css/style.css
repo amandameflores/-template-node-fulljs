@@ -4,33 +4,134 @@
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
 body {
   background: #000;
   color: #fff;
-  font-family: "Roboto", sans-serif;
 }
 
 h1, h2, h3, h4 {
   font-family: "Roboto", sans-serif;
 }
 
+.main-left {
+  position: fixed;
+  left: 0.625rem;
+  bottom: 0.625rem;
+}
+
+.main-left:hover {
+  transform: scale(1.2);
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  font-size: 1.3125rem;
+  align-items: center; 
+}
+  
+.footer-container a:hover {
+    transform: scale(1.2); 
+}
+
+.container {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.error-default {
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh; 
+}
+
+.error-default h1,
+.error-default h2,
+.error-default h3,
+.error-default h4,
+.error-default h5,
+.error-default p {
+  text-transform: uppercase; 
+}
+
+.error-default img {
+  height: 190px;
+  width: auto;
+  transition: 0.3s; 
+}
+
+.error-default img:hover {
+  transform: scale(1.2); 
+}
+
 .section {
   height: 100vh;
-  width: 100%;
+  width: 100%; 
 }
 
-.background--one {
-  background-size: contain;
+.section__background--one {
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
 }
 
-.background--two {
-  background-size: contain;
-}
-
-@media (max-width: 600px) {
-  .background-two {
-    height: 1200px;
+.section__background--two {
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  height: 100vh; 
   }
-}
 
-/*# sourceMappingURL=style.css.map */
+.section__block--one {
+  font-size: 1.3125rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-weight: 500; 
+  }
+
+.section__block--one h1 {
+  margin-bottom: 2rem; 
+  }
+
+.section__block--two {
+  font-size: 1.125rem;
+  text-align: right;
+  display: flex;
+  align-items: center; 
+  }
+
+
+@media (max-width: 769px) {
+  h1 {
+    font-size: 1rem; 
+  }
+
+  .section__block--two {
+    flex-direction: column; 
+  }
+
+  .section__block--two img {
+    width: 80%; 
+  }
+
+  .text-content {
+    margin: 3rem 0; 
+  }
+
+  .footer-container {
+    margin-top: 3rem; 
+  } 
+}

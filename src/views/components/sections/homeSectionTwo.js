@@ -1,6 +1,6 @@
-import backgroundTwo from '../../../assets/images/background/bg2.png';
-import darthVader from '../../../assets/images/elements/vader.png';
-import footer from '../footer';
+import BackgroundTwo from '../../../assets/images/background/bg2.png';
+import DarthVader from '../../../assets/images/elements/vader.png';
+import Footer from '../footer';
 
 let TextContent = `
 Lucas ipsum dolor sit amet luke sidious jango cade mace palpatine jawa wookiee wookiee kashyyyk. Dantooine calrissian r2-d2 calamari coruscant skywalker ewok. Darth fett moff endor twi'lek windu obi-wan luuke. Alderaan hutt hoth moff zabrak moff organa calamari. Ackbar mustafar wedge padmé mandalorians solo secura moff jar. Jawa luuke hutt organa jango jinn. Boba jabba kenobi moff luuke qui-gonn thrawn. Twi'lek yoda mace luke vader boba. Mace kessel darth antilles jabba. Luke hoth organa leia anakin skywalker leia ponda.
@@ -9,15 +9,18 @@ Moff ahsoka yavin calamari. Chewbacca skywalker yoda organa kit organa. Hutt hut
 `
 
 let HomeSectionTwo = `
-<section class="section background--two" style="background-image: url(${backgroundTwo})">
-    <div>
-        <img src="${darthVader}" alt="Vader" width="300px" height="auto">
-        <div>
-            <p>${TextContent}</p>
-        </div>
-    </div>
-    ${footer}
+<section class="section section__background--two" style="background-image: url('${BackgroundTwo}')" id='section-two'>
+    <div class='container section__block--two'>
+        <div class="block-section--two">
+            <img src="${DarthVader}" alt="Vader">
+            <div class='text-content'>
+                <p>
+                    ${TextContent}
+                </p>
+            </div>
+        </div>  
+        ${Footer}
 </section>
-`
+`;
 
 export default HomeSectionTwo;
