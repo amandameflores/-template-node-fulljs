@@ -24,5 +24,6 @@ let error = `
     </div>
 </div>
 `
+//<a href="http://localhost:8080/#section-one">
 
 export default Error404;
