@@ -16,7 +16,7 @@ let error = `
 <div class="error-default" style="background-image: url('${errorBg}')">
     <div classss="container">
         <h1>404 error - Page Not Found</h1>
-        <a href="http://localhost:8080/#section-one">
+        <a href="https://nostalgic-mcclintock-9fd589.netlify.app/#section-one">
             <img src="${darthError}" alt="Vader error">
         <a>
         <h2>Content does not exist</h2>
