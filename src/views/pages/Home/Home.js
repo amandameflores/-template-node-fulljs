@@ -6,19 +6,18 @@ let Home = {
   is_private: false,
 
   render: async () => {
-    let view = `
+      let view = `
           <div>
             ${homeSectionOne}
             ${homeSectionTwo}
             ${floatImage}
           </div>
-          
       `;
 
-    return view;
+      return view
   },
 
-  after_render: async () => {},
-};
+  after_render: async () => {}
+}
 
 export default Home;

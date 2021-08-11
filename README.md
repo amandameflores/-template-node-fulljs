@@ -1,17 +1,18 @@
-# Gama Academy :)
-## Template Node FullJS
+# Gama Academy 
+## Template Node FullJS - Best Practices
 
-Para iniciar o projeto:
-`git clone https://github.com/amandameflores/template-node-fulljs`
+- website
 
-Para instalar as dependências:
-`npm i`
 
-Para iniciar em modo de desenvolvimento:
-`npm start`
+- `git clone https://github.com/amandameflores/template-node-fulljs`
 
-## Aconselhado ter instalado NODEJS versão 14.x em diante.
 
-Para instalar o node [clique aqui](https://nodejs.org/en/)
+- Use `npm i` then `npm start` to run app 
 
-## Professor Douglas Morais
+-------------------------------------------------------------------
+## Advised to have installed NODEJS version 14.x onwards.
+
+- [x] [click here](https://nodejs.org/en/) to download node.js
+
+
+#### Prof Douglas Morais - @mrdouglasmorais

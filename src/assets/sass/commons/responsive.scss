@@ -1,21 +1,25 @@
-@media (max-width: 769px) {
-    h1 {
-      font-size: 1rem;
-    }
-  
-    .section__block--two {
-      flex-direction: column;
-  
-      img {
-          width: 80%;
+@media (max-width: 600px){
+  .background--two{
+      height: 1400px;
+
+      .block-section--two{
+          display: grid;
+          height: 90%;
+
+          & p{
+              text-align: center;
+              margin-left: 0;
+              margin-top: calc(10px - 200px);
+          }
+
+          & img{
+              margin: 0 auto;
+              max-width: 60%;
+          }
       }
-    }
-  
-    .text-content {
-      margin: 3rem 0;
-    }
-  
-    .footer-container {
-      margin-top: 3rem;
-    }
   }
+  
+  .footer-contain{
+      margin-top: calc(10px - 100px);
+  }
+}

@@ -1,8 +1,8 @@
 
-// errors
+//errors
 import Error404 from './Errors/Error404';
 
-// Home
+//Home
 import Home from './Home/Home';
 
 // Jedi

@@ -9,7 +9,7 @@
     "build": "node-sass src/assets/sass/style.scss > src/css/style.css && webpack --config webpack.prod.js"
   },
   "keywords": [],
-  "author": "Douglas Morais",
+  "author": "Amanda Flores",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.21.1",
